@@ -46,6 +46,7 @@ span {
 
 .first-p {
     letter-spacing: 5px;
+    margin-top: 30px;
 }
 
 img {
@@ -63,10 +64,31 @@ button{
     border-color: hsl(158, 36%, 37%);
     border-radius: 10px;
     border-style: none;
+    width: 80%;
+    height: 50px;
+    font-family: Montserrat;
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    margin-top: 20px;
 }
 
+button img {
+    width: 15px;
+    height: 16px;
+}
+
+.price {
+    font-size: x-large;
+    color: hsl(158, 36%, 37%);
+}
+
+
 p, h1, button {
-    padding: 5px 30px;
+    margin-left: 35px;
+}
+
+h1 {
+    font-size: 28px;
 }
 
 p {
