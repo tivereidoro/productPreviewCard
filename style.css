@@ -44,6 +44,10 @@ span {
     font-size: 13px;
 }
 
+.first-p {
+    letter-spacing: 5px;
+}
+
 img {
     border-bottom-right-radius: 0;
     border-top-right-radius: 0;
@@ -54,6 +58,12 @@ img {
     width: 50%;
 }
 
+button{
+    background-color: hsl(158, 36%, 37%);
+    border-color: hsl(158, 36%, 37%);
+    border-radius: 10px;
+    border-style: none;
+}
 
 p, h1, button {
     padding: 5px 30px;
