@@ -9,10 +9,9 @@ body{
 
 .perfume {
     display: flex;
-    background-color: blue;
-    background: blue url(img/image-product-desktop.jpg) no-repeat center;
+    
+    background: url(img/image-product-desktop.jpg) no-repeat center center fixed;
     background-size: cover;
-    border-color: blue solid 1px;
 }
 
 .text {
@@ -21,7 +20,7 @@ body{
 
 main {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
     justify-items: center;
