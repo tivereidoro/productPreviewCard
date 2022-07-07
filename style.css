@@ -4,27 +4,48 @@
 }
 
 body{
-    
+    box-sizing: border-box;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Lexend Deca';
+    background-color: hsl(0, 0%, 95%);
 }
 
 main {
+    background-color: hsla(0, 0%, 100%, 0.75);
+    width: 95%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
     display: flex;
+    height: 95vh;
+    margin-top: 5px;
     flex-direction: row;
     flex-wrap: nowrap;
-    width: 100%;
     justify-items: center;
     border-radius: 10px;
     border-color: red;
+
 }
 
 .perfume {
-    display: flex;
-    
-    background: url(img/image-product-desktop.jpg) no-repeat center center fixed;
-    background-size: cover;
+   padding: 0;
+}
+
+.perfume img {
+    width: 20%;
+    height: 70vh;
 }
 
 .text {
     background-color: aliceblue;
+   
+}
+
+.perfume, .text {
+    width: 20%;
+    height: 70vh;
+    padding: 20px;
+    border: 1px solid black;
 }
 
