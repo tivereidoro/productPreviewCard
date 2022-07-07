@@ -10,30 +10,25 @@ body{
     font-size: 15px;
     font-weight: 500;
     font-family: Montserrat;
-    background-color: hsl(30, 38%, 92%);
-    display: flex;
-    align-items: center;
-    /* justify-content: center; */
+    background-color: hsl(30, 38%, 92%)
 }
 
-/*main {
+main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(30, 38%, 92%);
     width: 50%;
     margin: auto;
     align-items: center;
     justify-content: center;
-    height: 70vh;
+    height: 100%;
     justify-items: center;
 }
-*/
 
-body img, body .text {
-    width: 24%;
-    height: 70vh;
-    margin: auto;
+main img, main .text {
+    width: 50%;
+    height: 72vh;
     border-radius: 17px;
     margin-top: 65px;
 }
@@ -59,6 +54,11 @@ span {
 main img {
     border-bottom-right-radius: 0;
     border-top-right-radius: 0;
+}
+
+main .text {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
 .text {
