@@ -4,7 +4,17 @@
 }
 
 body{
+    
+}
+
+main {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-items: center;
+    border-radius: 10px;
+    border-color: red;
 }
 
 .perfume {
@@ -15,15 +25,6 @@ body{
 }
 
 .text {
-    background: blue url(img/image-product-desktop.jpg) no-repeat center;
+    background-color: aliceblue;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-items: center;
-    border-radius: 10px;
-    border-color: red;
-}
