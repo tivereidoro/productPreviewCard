@@ -3,3 +3,28 @@
     padding: 0;
 }
 
+body{
+    display: flex;
+}
+
+.perfume {
+    display: flex;
+    background-color: blue;
+    background: blue url(img/image-product-desktop.jpg) no-repeat center;
+    background-size: cover;
+    border-color: blue solid 1px;
+}
+
+.text {
+    background: blue url(img/image-product-desktop.jpg) no-repeat center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-items: center;
+    border-radius: 10px;
+    border-color: red;
+}
