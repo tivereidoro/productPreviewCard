@@ -1,10 +1,10 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
-    box-sizing: border-box;
     font-size: 15px;
     font-weight: 400;
     font-family: 'Lexend Deca';
@@ -12,16 +12,18 @@ body{
 }
 
 main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     background-color: hsla(0, 0%, 100%, 0.75);
-    width: 95%;
+    width: 70%;
     margin: auto;
     align-items: center;
     justify-content: center;
-    display: flex;
+    
     height: 95vh;
     margin-top: 5px;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    
     justify-items: center;
     border-radius: 10px;
     border-color: red;
@@ -30,11 +32,13 @@ main {
 
 .perfume {
    padding: 0;
+   background-image: url(img/image-product-desktop.jpg);
 }
 
 .perfume img {
     width: 20%;
     height: 70vh;
+    box-sizing: border-box;
 }
 
 .text {
@@ -47,5 +51,6 @@ main {
     height: 70vh;
     padding: 20px;
     border: 1px solid black;
+    border-radius: 10px;
 }
 
