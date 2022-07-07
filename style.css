@@ -8,7 +8,7 @@ body{
     font-size: 15px;
     font-weight: 400;
     font-family: 'Lexend Deca';
-    background-color: hsl(0, 0%, 95%);
+    background-color: hsl(30, 38%, 92%)
 }
 
 main {
@@ -20,44 +20,32 @@ main {
     margin: auto;
     align-items: center;
     justify-content: center;
-    
     height: 90vh;
-    
     justify-items: center;
-    border-radius: 17px;
-    border-color: red;
-    border: 1px solid black;
-
+    margin-top: 20px;
 }
 
 main img {
-   width: 50%;
-   height: 90vh;
-   flex-direction: row;
-}
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    }
 
-.perfume img {
-    width: 20%;
-    height: 70vh;
-    box-sizing: border-box;
+main, img, .text {
+    border-radius: 17px;
 }
 
 .text {
     background-color: aliceblue;
     width: 50%;
-   height: 90vh;
-   
-}
-
-.perfume, .text {
-    
+    height: 90vh;
 }
 
 
 
 
 Dark cyan: hsl(158, 36%, 37%)
-Cream: hsl(30, 38%, 92%)
+
 
 Very dark blue: hsl(212, 21%, 14%)
 Dark grayish blue: hsl(228, 12%, 48%) - 
