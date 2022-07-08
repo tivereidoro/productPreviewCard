@@ -1,18 +1,18 @@
+/* imports the relevant google font */
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500&display=swap');
 
+/* style standard for the general page and main containers */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
     font-size: 15px;
     font-weight: 500;
     font-family: Montserrat;
     background-color: hsl(30, 38%, 92%)
 }
-
 main {
     display: flex;
     flex-direction: row;
@@ -26,29 +26,39 @@ main {
     justify-items: center;
 }
 
+
+/* styles the individual sections and containers */
 main img, main .text {
     width: 50%;
     height: 72vh;
     border-radius: 17px;
     margin-top: 65px;
 }
-
-span {
-    text-decoration: line-through;
-    font-size: 13px;
-}
-
 .first-p {
     letter-spacing: 5px;
-    margin-top: 30px;
+    margin-top: 33px;
     font-size: 12px;
     color: hsl(228, 12%, 48%);
 }
-
 .second-p {
     margin-top: 25px;
-    font-size: 14px;
+    font-size: 16px;
     color: hsl(228, 12%, 48%);
+    line-height: 27px;
+    font-weight: 600px;
+}
+.price {
+    font-size: 36px;
+    color: hsl(158, 36%, 37%);
+    margin-top: 25px;
+    word-spacing: 30px;
+}
+span {
+    text-decoration: line-through;
+    font-size: 13px;
+    align-content: center;
+    color: hsl(228, 12%, 48%);
+    font-family: Montserrat;
 }
 
 main img {
@@ -70,39 +80,36 @@ button{
     border-color: hsl(158, 36%, 37%);
     border-radius: 10px;
     border-style: none;
-    width: 80%;
+    width: 79%;
     height: 50px;
     font-family: Montserrat;
     color: hsl(0, 0%, 100%);
     font-weight: bold;
-    margin-top: 40px;
+    margin-top: 30px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    justify-items: center;
 }
-
-button img {
+button .cart {
     width: 15px;
     height: 16px;
+    align-self: center;
 }
 
-.price {
-    font-size: 30px;
-    color: hsl(158, 36%, 37%);
-    margin-top: 30px;
-}
-
-
-p, h1, button {
-    margin-left: 35px;
-}
 
 h1 {
     font-size: 28px;
     line-height: 28px;
     margin-top: 22px;
+    font-weight: bold;
 }
-
-h1, .price {
+h1,
+.price {
     font-family: Fraunces;
 }
-
+p,
+h1,
+button {
+    margin-left: 35px;
+}
